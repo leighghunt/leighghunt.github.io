@@ -84,7 +84,7 @@
 	        $.getJSON("http://rawgit.com/leighghunt/1f67139a4876156f6698/raw", function(data){
 
 				L.geoJson(data, {
-					onEachFeature: function (feature, layer) {
+					onEachFeature: function (feature, latlng, layer) {
 				        layer.bindPopup('<a href="https://www.google.com/maps?daddr='+ e.latlng.lng + ',' + e.latlng.lat + '">' + feature.properties.address + '</a>');
 					},
 				    pointToLayer: function (feature, latlng, layer) {
