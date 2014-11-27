@@ -76,21 +76,22 @@
 
 			map.on('locationerror', onLocationError);
 
-			map.locate({setView: true, watch: true});
+			// TO DO - replace this with https://github.com/domoritz/leaflet-locatecontrol#methods to be less presumptious.
+			map.locate({setView: true, watch: false});
 
 	        $.getJSON("http://rawgit.com/leighghunt/1f67139a4876156f6698/raw", function(data){
 			      var geojson = L.geoJson(data, {
 			      onEachFeature: function (feature, layer) {
-			        layer.bindPopup(feature.properties.popupContent);
 			      }
 			    });
 
 				L.geoJson(data, {
-				    pointToLayer: function (feature, latlng) {
+				    pointToLayer: function (feature, latlng, layer) {
+				        layer.bindPopup(feature.properties.address);
 				        return L.marker(latlng,
 				        	{
 				        		icon: christmasTreeIcon,
-				         		title: feature.properties.popupContent
+				         		title: feature.properties.address
 				         	});
 				    }
 				}).addTo(map);
