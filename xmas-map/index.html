@@ -1,78 +1,73 @@
 <html>
-  <head>
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	  <link rel="stylesheet" href="../dist/leaflet.css" />
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.js"></script>
+		<script type="text/javascript" src="//code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="//code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css">
+		<link rel="stylesheet" type="text/css" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css">
+		<script type="text/javascript" src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+		<style>
+			body {
+				padding: 0;
+				margin: 0;
+			}
+			html, body, #map {
+				height: 100%;
+			}
+		</style>
+	</head>
+	<body>
+	    <div id="map"></div>
+		<script>
+		    var map = L.map('map').setView([-41, 176], 5);
 
-	<script src="../dist/leaflet.js"></script>
-	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.js"></script>
-	<script type="text/javascript" src="//code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="//code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css">
-	<link rel="stylesheet" type="text/css" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css">
-	<script type="text/javascript" src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
-	<style>
-		body {
-			padding: 0;
-			margin: 0;
-		}
-		html, body, #map {
-			height: 100%;
-		}
-	</style>
-  </head>
-  <body>
-    <div id="map"></div>
-    <!--div id="map" class="leaflet-container leaflet-retina leaflet-fade-anim" tabindex="0" style="position: relative;"-->
+			L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
+						maxZoom: 18,
+						attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+							'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+							'Imagery © <a href="http://mapbox.com">Mapbox</a>',
+						id: 'examples.map-20v6611k'
+					}).addTo(map);
 
-	<script>
-	    var map = L.map('map').setView([-41, 176], 5);
+					function onEachFeature(feature, layer) {
+						var popupContent = "<p>I started out as a GeoJSON " +
+								feature.geometry.type + ", but now I'm a Leaflet vector!</p>";
 
-		L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
-					maxZoom: 18,
-					attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
-						'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-						'Imagery © <a href="http://mapbox.com">Mapbox</a>',
-					id: 'examples.map-20v6611k'
-				}).addTo(map);
+						if (feature.properties && feature.properties.popupContent) {
+							popupContent += feature.properties.popupContent;
+						}
 
-				function onEachFeature(feature, layer) {
-					var popupContent = "<p>I started out as a GeoJSON " +
-							feature.geometry.type + ", but now I'm a Leaflet vector!</p>";
-
-					if (feature.properties && feature.properties.popupContent) {
-						popupContent += feature.properties.popupContent;
+						layer.bindPopup(popupContent);
 					}
 
-					layer.bindPopup(popupContent);
-				}
+			function onLocationFound(e) {
+			    var radius = e.accuracy / 2;
 
-		function onLocationFound(e) {
-		    var radius = e.accuracy / 2;
+			    L.marker(e.latlng).addTo(map)
+			        .bindPopup("You are within " + radius + " meters from this point").openPopup();
 
-		    L.marker(e.latlng).addTo(map)
-		        .bindPopup("You are within " + radius + " meters from this point").openPopup();
+			    L.circle(e.latlng, radius).addTo(map);
+			}
 
-		    L.circle(e.latlng, radius).addTo(map);
-		}
+			map.on('locationfound', onLocationFound);
 
-		map.on('locationfound', onLocationFound);
+			function onLocationError(e) {
+			    alert(e.message);
+			}
 
-		function onLocationError(e) {
-		    alert(e.message);
-		}
+			map.on('locationerror', onLocationError);
 
-		map.on('locationerror', onLocationError);
+			map.locate({setView: true, maxZoom: 16});
 
-		map.locate({setView: true, maxZoom: 16});
-
-        $.getJSON("http://rawgit.com/leighghunt/1f67139a4876156f6698/raw", function(data){
-		      var geojson = L.geoJson(data, {
-		      onEachFeature: function (feature, layer) {
-		        layer.bindPopup(feature.properties.popupContent);
-		      }
-		    });
-		    geojson.addTo(map);
-          }
-		);
-    </script>
-  </body>
+	        $.getJSON("http://rawgit.com/leighghunt/1f67139a4876156f6698/raw", function(data){
+			      var geojson = L.geoJson(data, {
+			      onEachFeature: function (feature, layer) {
+			        layer.bindPopup(feature.properties.popupContent);
+			      }
+			    });
+			    geojson.addTo(map);
+	          }
+			);
+	    </script>
+	</body>
 </html>
