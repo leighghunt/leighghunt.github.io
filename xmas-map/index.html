@@ -20,6 +20,7 @@
 	    <div id="map"></div>
 		<script>
 		    var map = L.map('map').setView([-41, 176], 5);
+		    var ourPosition = null;
 
 			var christmasTreeIcon = L.icon({
 			    iconUrl: 'assets/christmas-tree-48x48.png',
@@ -53,10 +54,18 @@
 			function onLocationFound(e) {
 			    var radius = e.accuracy / 2;
 
-			    L.marker(e.latlng).addTo(map)
-			        .bindPopup("You are within " + Math.floor(radius) + " meters from this point");
+			    //L.marker(e.latlng).addTo(map)
+			    //    .bindPopup("You are within " + Math.floor(radius) + " meters from this point");
 
-			    L.circle(e.latlng, radius).addTo(map);
+			    if(ourPosition != null)
+			   	{
+			   		ourPosition.setLatLng(e.latlng, radius);
+			   		ourPosition.redraw();
+			   	} else
+			   	{
+			   		ourPosition = L.circle(e.latlng, radius);
+			   		ourPosition.addTo(map);
+			    }
 			}
 
 			map.on('locationfound', onLocationFound);
