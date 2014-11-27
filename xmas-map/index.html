@@ -79,11 +79,13 @@
 			// TO DO - replace this with https://github.com/domoritz/leaflet-locatecontrol#methods to be less presumptious.
 			map.locate({setView: true, watch: false});
 
+//https://www.google.com/maps?daddr=-41.1284294,174.8688049
+
 	        $.getJSON("http://rawgit.com/leighghunt/1f67139a4876156f6698/raw", function(data){
 
 				L.geoJson(data, {
 					onEachFeature: function (feature, layer) {
-				        layer.bindPopup(feature.properties.address);
+				        layer.bindPopup('<a href="https://www.google.com/maps?daddr='+ e.latlng.lng + ',' + e.latlng.lat + '">' + feature.properties.address + '</a>');
 					},
 				    pointToLayer: function (feature, latlng, layer) {
 				        return L.marker(latlng,
