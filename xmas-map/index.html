@@ -80,14 +80,12 @@
 			map.locate({setView: true, watch: false});
 
 	        $.getJSON("http://rawgit.com/leighghunt/1f67139a4876156f6698/raw", function(data){
-			      var geojson = L.geoJson(data, {
-			      onEachFeature: function (feature, layer) {
-			      }
-			    });
 
 				L.geoJson(data, {
-				    pointToLayer: function (feature, latlng, layer) {
+					onEachFeature: function (feature, layer) {
 				        layer.bindPopup(feature.properties.address);
+					},
+				    pointToLayer: function (feature, latlng, layer) {
 				        return L.marker(latlng,
 				        	{
 				        		icon: christmasTreeIcon,
