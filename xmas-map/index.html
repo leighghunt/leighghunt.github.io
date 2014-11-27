@@ -78,7 +78,11 @@
 
 				L.geoJson(geojson, {
 				    pointToLayer: function (feature, latlng) {
-				        return L.marker(latlng, icon: christmasTreeIcon, title: feature.properties.popupContent );
+				        return L.marker(latlng,
+				        	{
+				        		icon: christmasTreeIcon,
+				         		title: feature.properties.popupContent
+				         	});
 				    }
 				}).addTo(map);
 
