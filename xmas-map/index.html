@@ -1,12 +1,15 @@
 <html>
   <head>
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.js"></script>
-	  <script type="text/javascript" src="//code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
-	  <link rel="stylesheet" type="text/css" href="//code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css">
-	  <link rel="stylesheet" type="text/css" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css">
-	  <script type="text/javascript" src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script>
-	  <style>
+	  <link rel="stylesheet" href="../dist/leaflet.css" />
+
+	<script src="../dist/leaflet.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="//code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css">
+	<link rel="stylesheet" type="text/css" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css">
+	<script type="text/javascript" src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+	<style>
 		body {
 			padding: 0;
 			margin: 0;
@@ -21,31 +24,26 @@
     <!--div id="map" class="leaflet-container leaflet-retina leaflet-fade-anim" tabindex="0" style="position: relative;"-->
 
 	<script>
-    var map = L.map('map').setView([-41, 176], 5);
+	    var map = L.map('map').setView([-41, 176], 5);
 
-	L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
-				maxZoom: 18,
-				attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
-					'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-					'Imagery © <a href="http://mapbox.com">Mapbox</a>',
-				id: 'examples.map-20v6611k'
-			}).addTo(map);
+		L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
+					maxZoom: 18,
+					attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+						'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+						'Imagery © <a href="http://mapbox.com">Mapbox</a>',
+					id: 'examples.map-20v6611k'
+				}).addTo(map);
 
-			function onEachFeature(feature, layer) {
-				var popupContent = "<p>I started out as a GeoJSON " +
-						feature.geometry.type + ", but now I'm a Leaflet vector!</p>";
+				function onEachFeature(feature, layer) {
+					var popupContent = "<p>I started out as a GeoJSON " +
+							feature.geometry.type + ", but now I'm a Leaflet vector!</p>";
 
-				if (feature.properties && feature.properties.popupContent) {
-					popupContent += feature.properties.popupContent;
+					if (feature.properties && feature.properties.popupContent) {
+						popupContent += feature.properties.popupContent;
+					}
+
+					layer.bindPopup(popupContent);
 				}
-
-				layer.bindPopup(popupContent);
-			}
-
-
-        //map.addLayer(geojsonLayer);
-
-		map.locate({setView: true, maxZoom: 16});
 
 		function onLocationFound(e) {
 		    var radius = e.accuracy / 2;
@@ -63,6 +61,9 @@
 		}
 
 		map.on('locationerror', onLocationError);
+
+		map.locate({setView: true, maxZoom: 16});
+
         $.getJSON("http://rawgit.com/leighghunt/1f67139a4876156f6698/raw", function(data){
 		      var geojson = L.geoJson(data, {
 		      onEachFeature: function (feature, layer) {
@@ -73,6 +74,5 @@
           }
 		);
     </script>
-
   </body>
 </html>
