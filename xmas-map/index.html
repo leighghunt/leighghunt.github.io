@@ -57,7 +57,7 @@
 
 			map.on('locationerror', onLocationError);
 
-			map.locate({setView: true, maxZoom: 16});
+			map.locate({setView: true, maxZoom: 18});
 
 	        $.getJSON("http://rawgit.com/leighghunt/1f67139a4876156f6698/raw", function(data){
 			      var geojson = L.geoJson(data, {
