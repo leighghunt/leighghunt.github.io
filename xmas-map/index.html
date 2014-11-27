@@ -62,9 +62,12 @@
 			   		ourPosition.setLatLng(e.latlng, radius);
 			   		ourPosition.redraw();
 			   	} else
-			   	{
-			   		ourPosition = L.circle(e.latlng, radius);
-			   		ourPosition.addTo(map);
+          {
+            if(radius < 200)
+            {
+			   		  ourPosition = L.circle(e.latlng, radius);
+              ourPosition.addTo(map);
+            }
 			    }
 			}
 
