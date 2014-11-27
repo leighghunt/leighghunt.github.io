@@ -85,7 +85,7 @@
 
 				L.geoJson(data, {
 					onEachFeature: function (feature, layer) {
-				        layer.bindPopup('<a href="https://www.google.com/maps?q='+ feature.geometry.coordinates[1] + ',' + feature.geometry.coordinates[0] + '">' + feature.properties.address + '</a>');
+				        layer.bindPopup('<a href="geo:?saddr=' + ourPosition.latlng.lat + ',' + ourPosition.latlng.lng + '&daddr='+ feature.geometry.coordinates[1] + ',' + feature.geometry.coordinates[0] + '">' + feature.properties.address + '</a>');
 					},
 				    pointToLayer: function (feature, latlng, layer) {
 				        return L.marker(latlng,
