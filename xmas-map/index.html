@@ -88,8 +88,8 @@
 				        layer.bindPopup('<a href="geo:' +
 				        	feature.geometry.coordinates[1] + ',' +
 				        	feature.geometry.coordinates[0] +
-				        	'?daddr='+ feature.geometry.coordinates[1] + ',' +
-				        	feature.geometry.coordinates[0] + '">' +
+				        	'?daddr=('+ feature.geometry.coordinates[1] + ',' +
+				        	feature.geometry.coordinates[0] + ')">' +
 				        	feature.properties.address + '</a>');
 					},
 				    pointToLayer: function (feature, latlng, layer) {
