@@ -54,7 +54,7 @@
 			    var radius = e.accuracy / 2;
 
 			    L.marker(e.latlng).addTo(map)
-			        .bindPopup("You are within " + int(radius) + " meters from this point");
+			        .bindPopup("You are within " + Math.floor(radius) + " meters from this point");
 
 			    L.circle(e.latlng, radius).addTo(map);
 			}
