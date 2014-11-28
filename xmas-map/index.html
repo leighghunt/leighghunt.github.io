@@ -5,6 +5,14 @@
 		<script type="text/javascript" src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.js"></script>
 		<script type="text/javascript" src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
+
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="bower-components/leaflet-locatecontrol/dist/L.Control.Locate.min.css" />
+		<!--[if lt IE 9]>
+		    <link rel="stylesheet" href="bower-components/leaflet-locatecontrol/dist/L.Control.Locate.ie.min.css"/>
+		<![endif]-->
+
+		<script src="bower-components/leaflet-locatecontrol/dist/L.Control.Locate.min.js" ></script>
 		<!--link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css"-->
 		<style>
 			body {
@@ -60,38 +68,7 @@
 						layer.bindPopup(popupContent);
 					}
 
-			function onLocationFound(e) {
-			    var radius = e.accuracy / 2;
-
-			    //L.marker(e.latlng).addTo(map)
-			    //    .bindPopup("You are within " + Math.floor(radius) + " meters from this point");
-
-			    if(ourPosition != null)
-			   	{
-			   		ourPosition.setLatLng(e.latlng, radius);
-			   		ourPosition.redraw();
-			   	} else
-          {
-            if(radius < 200)
-            {
-			   		  ourPosition = L.circle(e.latlng, radius);
-              ourPosition.addTo(map);
-            }
-			    }
-			}
-
-			map.on('locationfound', onLocationFound);
-
-			function onLocationError(e) {
-			    alert(e.message);
-			}
-
-			map.on('locationerror', onLocationError);
-
-			// TO DO - replace this with https://github.com/domoritz/leaflet-locatecontrol#methods to be less presumptious.
-			map.locate({setView: true, watch: false, maxZoom:14});
-
-//https://www.google.com/maps?daddr=-41.1284294,174.8688049
+			L.control.locate().addTo(map);
 
 	        $.getJSON("lights.geojson", function(data){
 
