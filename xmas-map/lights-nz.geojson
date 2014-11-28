@@ -1908,15 +1908,15 @@
             "id": "Norfolk Drive, Cambridge",
             "properties": {
                 "Address": "Norfolk Drive, Cambridge",
-                "geo_longitude": -84.14275889999999,
-                "geo_latitude": 42.0144865
+                "geo_longitude": 175.468752,
+                "geo_latitude": -37.874630
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -84.14275889999999,
-                    42.0144865
+                    175.468752,
+                    -37.874630
                 ]
             }
         },
