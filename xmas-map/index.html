@@ -93,7 +93,7 @@
 
 //https://www.google.com/maps?daddr=-41.1284294,174.8688049
 
-	        $.getJSON("http://rawgit.com/leighghunt/1f67139a4876156f6698/raw", function(data){
+	        $.getJSON("lights.geojson", function(data){
 
 				L.geoJson(data, {
 					onEachFeature: function (feature, layer) {

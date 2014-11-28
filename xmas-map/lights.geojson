@@ -1,0 +1,174 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.8688049,
+          -41.1284294
+        ]
+      },
+      "properties": {
+        "address": "35 Tongariro Drive, Aotea, Porirua"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.912323,
+          -41.1087608
+        ]
+      },
+      "properties": {
+        "address": "80 Joseph Banks Drive, Whitby, Porirua"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.8911896,
+          -41.1133614
+        ]
+      },
+      "properties": {
+        "address": "30 The Companionway, Whitby, Porirua"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.8841705,
+          -41.1125412
+        ]
+      },
+      "properties": {
+        "address": "2 Venus Place, Whitby, Porirua"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.1085205,
+          -41.0951691
+        ]
+      },
+      "properties": {
+        "address": "16 Carlow Grove, Birchville, Upper Hutt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.0810699,
+          -41.1234207
+        ]
+      },
+      "properties": {
+        "address": "11 King Charles Drive, Kingsley Heights, Upper Hutt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.0213776,
+          -41.1486282
+        ]
+      },
+      "properties": {
+        "address": "39 Chatsworth Road, Silverstream, Upper Hutt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.0869141,
+          -41.10672
+        ]
+      },
+      "properties": {
+        "address": "80A Pasadena Crescent, Totara Park, Upper Hutt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.045166,
+          -41.1232185
+        ]
+      },
+      "properties": {
+        "address": "31 Tennyson Street, Trentham, Upper Hutt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.8033447,
+          -41.1953392
+        ]
+      },
+      "properties": {
+        "address": "103 Amesbury Drive, Churton Park, Wellington"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7733917,
+          -41.3323593
+        ]
+      },
+      "properties": {
+        "address": "88 The Parade, Island Bay, Wellington"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7636261,
+          -41.3178215
+        ]
+      },
+      "properties": {
+        "address": "2 Wentworth Street, Mornington, Wellington"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.8269653,
+          -41.1599197
+        ]
+      },
+      "properties": {
+        "address": "59 Fyvie Avenue, Tawa, Wellington"
+      }
+    }
+  ]
+}
