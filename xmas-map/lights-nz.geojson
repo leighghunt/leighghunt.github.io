@@ -1732,15 +1732,15 @@
             "id": "38 Woodend Road, Woodend",
             "properties": {
                 "Address": "38 Woodend Road, Woodend",
-                "geo_longitude": 152.750822,
-                "geo_latitude": -27.6085319
+                "geo_longitude": 172.660623,
+                "geo_latitude": -43.320294
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.750822,
-                    -27.6085319
+                    172.660623,
+                    -43.320294
                 ]
             }
         },
