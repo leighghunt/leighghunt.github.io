@@ -109,7 +109,7 @@
 			    map.off('dragstart', locateControl._stopFollowing, locateControl);
 			});
 
-	        $.getJSON("lights-nz.geojson", function(data){
+	        $.getJSON("lights.geojson", function(data){
 
 				L.geoJson(data, {
 					onEachFeature: function (feature, layer) {
