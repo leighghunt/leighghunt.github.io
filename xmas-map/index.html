@@ -86,7 +86,13 @@
 							+ '">' + feature.properties.Address + '</a>';
 						if(feature.properties.ImageURL)
 						{
-							popupContent += '<br>' + '<a href="' + feature.properties.ImageURL + '"><img src="' + feature.properties.ImageURL + '" style="width:200px"></img></a>';
+							var ImageURL = feature.properties.ImageURL;
+							var ThumbnailURL = feature.properties.ThumbnailURL;
+							if(!ThumbnailURL)
+							{
+								ThumbnailURL = ImageURL;
+							}
+							popupContent += '<br>' + '<a href="' + ImageURL + '"><img src="' + ThumbnailURL + '" style="width:200px"></img></a>';
 						}
 
 						layer.bindPopup(popupContent);
