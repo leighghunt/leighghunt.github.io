@@ -39,6 +39,32 @@
 		    var map = L.map('map').setView([-41, 176], 5);
 		    var ourPosition = null;
 
+			var vars = [], hash;
+			    var q = document.URL.split('?')[1];
+			    if(q != undefined){
+			        q = q.split('&');
+			        for(var i = 0; i < q.length; i++){
+			            hash = q[i].split('=');
+			            vars.push(hash[1]);
+			            vars[hash[0]] = hash[1];
+			        }
+			}
+			if(vars['InitialExtent'])
+			{
+				switch(vars['InitialExtent'].toLowerCase())
+				{
+					case('whitby'):
+						map.setView([-41.116944, 174.893056], 12)
+					case('wellington'):
+						map.setView([-41.2889, 174.7772], 12)
+					case('lower-hutt'):
+						map.setView([-41.2167, 174.9167, 12)
+					case('christchurch'):
+						map.setView([-43.5300, 172.6203, 12)
+				}
+
+			}
+
 			var christmasTreeIcon = L.icon({
 			    iconUrl: 'assets/christmas-tree-48x48.png',
 			    shadowUrl: 'assets/christmas-tree-48x48-shadow.png',
@@ -69,7 +95,7 @@
 				layer.bindPopup(popupContent);
 			}
 
-			var locateControl = L.control.locate({follow: true}).addTo(map);
+			var locateControl = L.control.locate({follow: true, locateOptions: {maxZoom: 10} }).addTo(map);
 			map.on('startfollowing', function() {
 			    map.on('dragstart', locateControl._stopFollowing, locateControl);
 			}).on('stopfollowing', function() {
