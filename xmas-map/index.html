@@ -89,7 +89,7 @@
 							popupContent += '<br>' + '<a href="' + feature.properties.ImageURL + '"><img src="' + feature.properties.ImageURL + '" style="width:100px"></img></a>';
 						}
 
-						layer.bindPopup();
+						layer.bindPopup(popupContent);
 				        /*
 				        layer.bindPopup('<a href="geo:' +
 				        	feature.geometry.coordinates[1] + ',' +
