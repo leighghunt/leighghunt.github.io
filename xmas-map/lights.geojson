@@ -213,7 +213,8 @@
       "type": "Feature",
       "properties": {
         "Address": "41 Joesph Banks Drive, Whitby, Porirua",
-        "ImageURL": "assets/photos/41-joseph-banks-drive-whitby.jpg"
+        "ImageURL": "http://leighghunt.github.io/xmas-map/assets/photos/41-joseph-banks-drive-whitby.jpg",
+        "ThumbnailURL": "http://leighghunt.github.io/xmas-map/assets/photos/41-joseph-banks-drive-whitby.thumb.jpg"
       },
       "geometry": {
         "type": "Point",
