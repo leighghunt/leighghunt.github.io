@@ -1,5 +1,5 @@
 # Site
-repository: sproogen/resume-theme
+repository: leighghunt/leighghunt.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -9,6 +9,7 @@ version: 2
 name: Leigh Hunt
 title: Software Developer
 email: leigh@venari.co.nz
+phone: +64 21 271 1844
 website: venari.co.nz
 
 # Dark Mode (true/false/never)
@@ -64,7 +65,9 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: TimelapsePi
+        border: weak
+        title: Time-lapsePi
+        caption: January 2022 - Present
         link: https://venari.co.nz/timelapse
         # link_text: Project Website
         additional_links:
@@ -74,13 +77,36 @@ content:
         # quote: >
         #   ...
         description: | # this will include new lines to allow paragraphs
-          A tool to create long-term off-grid timelapses of construction and infrastructure projects spanning months or years.
+          A tool to create long-term off-grid time-lapses of construction and infrastructure projects spanning months or years.
           Using a Raspberry Pi, Pi Juice and solar power, this camera can run for months or years without external power. 
           It sends telemetry and imagery to a central server ensuring in the event of theft, imagery is preserved.
           Offered both as open-source software and hardware with option for self-hosting, and as a managed service to construction industry in New Zealand.
+          <mark>C#</mark>, <mark>PostgreSQL</mark>, <mark>Python</mark>, <mark>Azure CI/CD</mark> 
 
       - layout: top-middle
+        border: weak
+        title: Drone Hyperlapse Service
+        caption: December 2018 - Present
+        link: https://venari.co.nz/hyperlapse
+        # link_text: Project Website
+        # quote: >
+        #   ...
+        description: | # this will include new lines to allow paragraphs
+            In addition to Drone photography and videography, I initiated and refined a drone hyperlapse creation service to help organisations communicate progress of their projects to stakeholders and the public.
+            By aligning and stitching together multiple captures of a site, we create a seamless story to show the progression of projects across many months, or in the case of larger projects, years.
+            <mark>Litchi</mark>, <mark>Adobe After Effects</mark>, <mark>RPA Flight Management (CAA Part 101)</mark>
+
+      - layout: top-middle
+        title: Pro bono IT Advice and Support
+        caption: November 2016 - Present
+        description: | # this will include new lines to allow paragraphs
+            Offering IT support and advice to a local Women's Refuge Service in Porirua. 
+            In addition to general IT support and procurement assistance, have migrated the office environment to Office 365 and helped migrate systems and records to the cloud.
+
+      - layout: top-middle
+        border: weak
         title: Coder Dojo Porirua
+        caption: 2013 - 2019
         link: https://coderdojo.nz
         # link_text: Project Website
         additional_links:
@@ -90,11 +116,23 @@ content:
         # quote: >
         #   ...
         description: | # this will include new lines to allow paragraphs
-          In 2013 I founded the Porirua CoderDojo, part of a global collection of free clubs inspiring and teaching children aged 5-15 about coding. 
-          We used the graphical programming language Scratch for beginners and JavaScript and Arduino for older kids to expose young inquisitive minds to programming.
+            I founded the Porirua CoderDojo, part of a global collection of free clubs inspiring and teaching children aged 5-15 about coding. 
+            We used the graphical programming language Scratch for beginners and JavaScript and Arduino for older kids to expose young inquisitive minds to programming.
 
-
-        # tile38-viewer (Lead Developer)	Developing a tool to visualise geofences and realtime events in Tile38 on a map (C#, Leaflet, docker)
+      - layout: top-middle
+        title: Tile38 Viewer
+        caption: September 2019
+        # link: https://coderdojo.nz
+        # link_text: Project Website
+        additional_links:
+          - title:  Github project
+            icon: fab fa-github
+            url: https://github.com/leighghunt/tile38-viewer/
+        # quote: >
+        #   ...
+        description: | # this will include new lines to allow paragraphs
+            Developed a tool to visualise geofences and realtime events in Tile38 on a map
+            <mark>C#</mark>, <mark>Docker</mark>, <mark>Leaflet</mark>
 
 
   - title: Experience # Title for the section
@@ -104,7 +142,6 @@ content:
         border: weak
         title: Venari Ltd
         link: venari.co.nz
-        # link_text: boringcompany.com
         sub_title: Software Developer
         caption: November 2013 - Present
         description: | # this will include new lines to allow paragraphs
@@ -143,9 +180,6 @@ content:
 
             <strong>Whirinaki Whare Taonga (Lead Developer, Support)</strong>	
             Maintaining Whirinaki' website <mark>Silverstripe</mark>, <mark>JavaScript</mark>
-
-            <strong>Various clients</strong>
-            Drone videography and [hyperlapse creation service](https://venari.co.nz/hyperlapse) to help organisations communicate progress of their projects to stakeholders and the public.
             
       - layout: left
         border: weak
@@ -225,7 +259,7 @@ content:
       - layout: left
         border: weak
         title: Atkins Management Consultants (UK)
-        # link: venari.co.nz
+        link: www.atkinsglobal.com
         # link_text: boringcompany.com
         sub_title: Software Developer
         caption: 1998 - 2005
