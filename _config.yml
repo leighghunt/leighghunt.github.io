@@ -12,7 +12,7 @@ email: leigh@venari.co.nz
 website: venari.co.nz
 
 # Dark Mode (true/false/never)
-darkmode: false
+# darkmode: false
 
 # Social links
 twitter_username: leighghunt
@@ -53,66 +53,243 @@ about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Leigh and I'm a Software Developer.
 
-  I've been working in the New Zealand IT community for 15 years, including 12 as a business owner.
+  I've been working in the New Zealand IT community for 15 years, including the last 12 as a business owner and contractor.
 
   I mainly work in the <mark>DotNet</mark> and <mark>GIS</mark> spaces, and have strong interests in data visualisation and communication.
+
+  If you have time for and fancy reading a much more in-depth story about me, here's an [article](https://venari.co.nz/about/).
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: TimelapsePi
+        link: https://venari.co.nz/timelapse
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  venari/timelapse
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+            url: github.com/venari/timelapse
+        # quote: >
+        #   ...
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          A tool to create long-term off-grid timelapses of construction and infrastructure projects spanning months or years.
+          Using a Raspberry Pi, Pi Juice and solar power, this camera can run for months or years without external power. 
+          It sends telemetry and imagery to a central server ensuring in the event of theft, imagery is preserved.
+          Offered both as open-source software and hardware with option for self-hosting, and as a managed service to construction industry in New Zealand.
+
+      - layout: top-middle
+        title: Coder Dojo Porirua
+        link: https://coderdojo.nz
+        # link_text: Project Website
+        additional_links:
+          - title:  Coder Dojo Porirua
+            icon: fab fa-facebook
+            url: https://www.facebook.com/CoderDojoPorirua
+        # quote: >
+        #   ...
+        description: | # this will include new lines to allow paragraphs
+          In 2013 I founded the Porirua CoderDojo, part of a global collection of free clubs inspiring and teaching children aged 5-15 about coding. 
+          We used the graphical programming language Scratch for beginners and JavaScript and Arduino for older kids to expose young inquisitive minds to programming.
+
+
+        # tile38-viewer (Lead Developer)	Developing a tool to visualise geofences and realtime events in Tile38 on a map (C#, Leaflet, docker)
+
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        border: weak
+        title: Venari Ltd
+        link: venari.co.nz
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        sub_title: Software Developer
+        caption: November 2013 - Present
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            <strong>GasNet (Lead Developer, Architect)</strong> 
+            Developing a prototype for GasNet's Smart Meter Data Ingestion system 
+            <mark>C#</mark>, 
+            <mark>PostgreSQL</mark>, 
+            <mark>Azure CI/CD</mark>
+
+            <strong>Manulife Investment Management Timberland and Agriculture Inc (formally HNRG) (Lead Developer)</strong>
+            Designed, Developed and managed backend API for MIMTA's new internal Latitude Forestry Management System, and deployed to US and NZ workforce.
+            <mark>C#</mark>, <mark>SQL</mark>, <mark>ArcGIS</mark>, <mark>Azure CI/CD</mark>
+
+            <strong>Eagle Technology Group (Lead Developer)</strong>
+            Subcontracted to Eagle, designing and developing software using <mark>C#</mark>, <mark>React/Redux</mark>, <mark>SQL</mark>, <mark>ArcGIS</mark>, <mark>Docker</mark>, <mark>AWS</mark> for various clients including:
+            <ul>
+              <li>NZ Police</li> 
+              <li>Auckland Transport</li>
+              <li>Transpower</li>
+              <li>Ballance</li>
+              <li>Department of Conservation</li>
+              <li>NZ Archaeological Association</li>
+            </ul>
+
+            <strong>GasNet (Lead Developer)</strong> 
+            Maintaining and enhancing GasNet's MiDAS retailer billing system <mark>C#</mark>, <mark>SQL</mark>
+
+            <strong>BureauCo (Lead Developer)</strong> 
+            Maintaining and enhancing BureauCo's Plan.IT.Road system <mark>C#</mark>, <mark>ArcGIS</mark>, <mark>Silverlight</mark>
+
+            <strong>Northland Regional Council (Developer)</strong> 
+            Offering specialist knowledge in TechOne integration, and <mark>C#</mark>, <mark>WSDL/SOAP</mark>, <mark>SQL Spatial</mark>
+
+            <strong>Astara Technologies (Lead Developer)</strong>
+            Supporting and Dockerising Astara's embedded Battery Management System visualisation software <mark>C#</mark>, <mark>AngularJS</mark>
+
+            <strong>Whirinaki Whare Taonga (Lead Developer, Support)</strong>	
+            Maintaining Whirinaki' website <mark>Silverstripe</mark>, <mark>JavaScript</mark>
+
+            <strong>Various clients</strong>
+            Drone videography and [hyperlapse creation service](https://venari.co.nz/hyperlapse) to help organisations communicate progress of their projects to stakeholders and the public.
+            
+      - layout: left
+        border: weak
+        title: Splice Group Ltd
+        # link: venari.co.nz
+        # link_text: boringcompany.com
+        sub_title: Technical Director, Principal Consultant, Analyst/Developer
+        caption: 2010 - 2013
+        quote: >
+          Splice were finalists in the Cyber Gold category of the 2012 Wellington Gold Awards, and won the ICT Category in the 2011 Westpac Porirua City Business Excellence Awards.
+        description: | # this will include new lines to allow paragraphs
+            
+            <strong>Northland Regional Council (Developer)</strong>
+            Integrated NRC's TechOne finance system with the cross-regional Integrated Regional Information System, enabling data entered into IRIS to be synchronised with TechOne.
+            Implemented a WCF service that published WSDL interface consumed by IRIS, and in turn wrote data to TechOne using its web service.
+
+            <strong>AGS Ltd (Developer)</strong>
+            Sub-contracted to Eagle Technology Ltd to develop an unexploded ordnance clearance request application. Developed using Service Stack, SQL Server and ArcGIS, the application enabled users to request land near oil fields in Iraq to be cleared of UXO. The application used the ArcGIS JavaScript API, Bootstrap, and dual-factor authentication.
+
+            <strong>BureauCo (Analyst/Developer)</strong>
+            Migrated PLAN.IT.road roading corridor management application from ArcIMS to ArcGIS and Silverlight.
+            Made several enhancements and stability improvements to the application, including enabling support for The National Code of Practice for Utility Operators' Access to Transport Corridors.
+
+            <strong>Hutt City Council, Selwyn District Council, Kapiti District Council, Upper Hutt City Council (Analyst/Developer)</strong>
+            Developed Splice Group's LIM application, streamlining councils' manual LIM processes by automating retrieval of data from geospatial and finance systems, and generating final output.
+            Integrated with ArcGIS, TechnologyOne (PropertyCI), and NCS.
+
+            <strong>Astara Technologies  (Developer)</strong>
+            Astara Technologies develops battery management systems (BMS), and needed to visualise the data recorded by two electric motorbikes. The Energy Management Dashboard took data from the BMS, integrated GPS and video feed, and eased analysis by displaying a sychronised video feed, map and graphs representing battery performance.
+
+            <strong>Wellington City Council (Analyst/Developer)</strong>
+            Sub-contracted to Eagle Technology Ltd, undertook an independent Architecture Review for WCC's internal CityView application, a legacy Java/ArcGIS/JavaScript system which was experiencing a number of performance issues. 
+            Produced a report with a number of recommendations, and helped WCC implement some of those recommendations.
+
+            <strong>GasNet (Developer)</strong>
+            Took over support and maintenance of GasNet's retailer billing system, developing enhancements to support legislative changes to the gas industry in New Zealand.
+
+            <strong>Auckland City Council (Analyst/Developer)</strong>
+            Implemented customisations to ArcGIS to enable ACC's legacy smallworld application to be migrated to Esri ArcGIS. Also implemented an ETL component that allowed FME to synchronise the data between the two different systems.
+
+
+      - layout: left
+        border: weak
+        title: Explorer Graphics Ltd
+        # link: venari.co.nz
+        # link_text: boringcompany.com
+        sub_title: Senior GIS Developer
+        caption: 2008 - 2010
+        description: | # this will include new lines to allow paragraphs
+            
+            <strong>XPLview (Team Leader, Developer)</strong>
+            Lead a team developing EGL's XPLview application, which enabled councils to expose their ArcIMS and ArcGIS servers, integrated with financial and property systems, as public facing web applications.
+
+            <strong>SurveyLab Ike (Developer)</strong>
+            Implemented customisations to ArcPad to allow users to quickly record information during surveys, including cemetery headstones and water service infrastructure. Data could then be synchronised into ArcGIS for further analysis.
+
+
+      - layout: left
+        border: weak
+        title: Swordfish Business Solutions (UK)
+        # link: venari.co.nz
+        # link_text: boringcompany.com
+        sub_title: Director, Analyst/Developer
+        caption: 2005 - 20007
+        description: | # this will include new lines to allow paragraphs
+
+            <strong>Freshfields Bruckhaus Deringer (Developer)</strong>
+            Working in London Finance office, supporting “FirmControl” and Generic Reporting applications, used to monitor the financial performance of this £780m firm.
+
+            <strong>KA Technology Ltd (Analyst/Developer)</strong>
+            Subcontracting to KA Technology, developing a Document Assembly Module for KA Technology's legal sector client and integrating with a Document Management System.
+
+            <strong>Highways Agency (Analyst/Developer)</strong>
+            Enhancements to the Energy Procurement System Project, which in its first year of operation saved the client over $1M.
+
+
+      - layout: left
+        border: weak
+        title: Atkins Management Consultants (UK)
+        # link: venari.co.nz
+        # link_text: boringcompany.com
+        sub_title: Software Developer
+        caption: 1998 - 2005
+        description: | # this will include new lines to allow paragraphs
+            <strong>The Office of Rail Regulation (Analyst/Developer)</strong>
+            Several engagements with ORR over 5 years, resulting in:
+            -	Specification and development of a SQL Server based contact management system.
+            -	Integrated the contact management system with the organisation's document management and production system.
+            -	Supported internal development of a database recording accessibility issues at rail stations, and reporting KPIs.
+            -	Developed an application for managing the workflow for the department's scanned documents.
+            
+            <strong>British Airports Authority (Business Analyst)</strong>
+            Business Analyst for BAA's 600+ user, mission critical, Staff Information System at Heathrow and Stansted.
+            Performed stakeholder analysis, and led workshops and interviews with key airside and landside users from 28 internal departments and external organisations, gathering business requirements for the replacement system.
+            At the end of this £1M+ project's feasibility phase, I formed part of the supplier selection panel.
+            Later produced the Site Acceptance Test plan for the installation of the Automated Public Announcement System at terminals 1-4. 
+
+            <strong>Highways Agency (Developer)</strong>
+            Development of the Energy Procurement System Project, which in its first year of operation saved the client over $1M.
+
+            <strong>The National Archives (Developer)</strong>
+            Enhancing and developing The National Archives Document Ordering System (DORIS), and document import system (DUPION).
+            Captured requirements for a space management system, to help TNA staff to manage the document repositories (currently spanning over 100 miles of shelving).
+
+            <strong>Food Standards Agency (Technical Architect/Developer, Team Leader)</strong>
+            Designed, developed and led a team of four developers for FSA's Nutrient Databank application for collating and calculating food nutritional information.
+
+            <strong>British Energy (Developer)</strong>
+            Responsible for development and deployment of patches to GCORE, a system used to model the effect of seismic activity on nuclear reactor cores.
+
+            <strong>UK Hydrographic Office (Developer)</strong>
+            Porting UKHO's Cobol/DG based system to C++/Windows NT as part of a Y2K GIS Data migration project.
+            Instigated and conducted code reviews of new and existing code being produced by members of the 25+ strong development team.
+            
+      - layout: left
+        # border: weak
+        title: Financial Planning Software Ltd (UK)
+        # link: venari.co.nz
+        # link_text: boringcompany.com
+        sub_title: Programmer
+        caption: 1995-1998
+        # quote: >
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            Part of a small team designing, implementing and testing the new Windows version of the company's DOS based financial planning software suite.
+            The project was developed using Visual C++ and OOD methods to produce flexible and maintainable code.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: Birmingham University
+        caption: 1992 - 1995
+        sub_title: BSc (Hons) Computer Science & Software Engineering
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      As part of a household of 7, life is often pretty busy but when I do find time, alongside my interests in software development and drone flying, some of my other interests and hobbies are:
+      - Cycling
+      - Photography
+      - Brewing Beer
+      - Building/Making
 
 
 # Footer
