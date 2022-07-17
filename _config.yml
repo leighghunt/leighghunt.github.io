@@ -97,6 +97,7 @@ content:
             <mark>Litchi</mark>, <mark>Adobe After Effects</mark>, <mark>RPA Flight Management (CAA Part 101)</mark>
 
       - layout: top-middle
+        border: weak
         title: Pro bono IT Advice and Support
         caption: November 2016 - Present
         description: | # this will include new lines to allow paragraphs
