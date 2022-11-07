@@ -32,9 +32,12 @@ linkedin_username: leighhunt
 
 # Additional icon links
 additional_links:
+- title: Mastodon
+  icon: fab fa-mastodon
+  url: mastodon.nz/@leighghunt
 - title: Youtube
   icon: fab fa-youtube
-  url: youtube.com/channel/UC8x7Bd5ichSMQK8_bITq-rw
+  url: youtube.com/@venari_nz
 - title: venari.co.nz
   icon: fas fa-globe
   url: https://venari.co.nz
