@@ -296,7 +296,7 @@ content:
 
             <strong>UK Hydrographic Office (Developer)</strong>
             Porting UKHO's Cobol/DG based system to C++/Windows NT as part of a Y2K GIS Data migration project.
-            Instigated and conducted code reviews of new and existing code being produced by members of the 25+ strong development team.
+            Instigated and conducted code reviews of new and existing code being produced by members of Laser-Scan's 25+ strong GOTHIC development team.
             
       - layout: left
         # border: weak
