@@ -1,4 +1,8 @@
 source "https://rubygems.org"
+gem 'bundler'
+gem 'jekyll'
+gem "webrick", "~> 1.8"
+gem "rake", "~> 12.3.1"
 
 gem "github-pages", group: :jekyll_plugins
 
