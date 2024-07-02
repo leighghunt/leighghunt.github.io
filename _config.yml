@@ -61,7 +61,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   I mainly work in the <mark>DotNet</mark> and <mark>GIS</mark> spaces, and have strong interests in data visualisation and communication. I also design and develop software for <mark>embedded</mark> devices for data acquisition.
 
-  If you have time for and fancy reading a much more in-depth story about me, here's an [article](https://venari.co.nz/about/).
+  If you would like to read a more in-depth story about me, here's an [article](https://venari.co.nz/about/).
 
 content:
   - title: Projects # Title for the section
@@ -80,9 +80,11 @@ content:
         # quote: >
         #   ...
         description: | # this will include new lines to allow paragraphs
-          Originating as a tool for creating long-term off-grid time-lapses of construction and infrastructure projects spanning months or years, this became a platform for remote imagery acquisition.
-          Several of these cameras have been used in the field for a year by a Council for near-realtime remote collection of evidence of waterway pollution.
-          Using a Raspberry Pi, Pi Juice and solar power, these devices can run for months or years without external power, sending telemetry and imagery to a central server ensuring that in the event of theft, imagery is preserved.
+          Originating as a tool for creating long term off-grid timelapses of construction and infrastructure projects spanning months or years, this became a platform for remote imagery acquisition.
+          Several of these cameras have been used in the field for a year by a Council for near realtime remote collection of evidence of waterway pollution.
+
+          Using a Raspberry Pi, Pi Juice and solar power, these devices can run for months or years without external power, and send telemetry and imagery to a central server ensuring that in the event of theft, imagery is preserved.
+
           Offered both as open-source software and hardware with option for self-hosting, and as a managed service to construction industry and enforcement agencies in New Zealand.
           <mark>C#</mark>, <mark>PostgreSQL</mark>, <mark>Python</mark>, <mark>Azure CI/CD</mark>, <mark>Embedded</mark> 
 
@@ -104,8 +106,8 @@ content:
         title: Pro bono IT Advice and Support
         caption: November 2016 - Present
         description: | # this will include new lines to allow paragraphs
-            Offering IT support and advice to a local Women's Refuge Service in Porirua. 
-            In addition to general IT support and procurement assistance, have migrated the office environment to Office 365 and helped migrate systems and records to the cloud.
+            I give IT support and advice to a local Women's Refuge Service in Porirua. 
+            In addition to general IT support and procurement assistance, I migrated their office environment to Office 365 and helped migrate systems and records to the cloud.
 
       - layout: top-middle
         border: weak
@@ -139,6 +141,7 @@ content:
             <mark>C#</mark>, <mark>Docker</mark>, <mark>Leaflet</mark>
 
 
+
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -149,43 +152,70 @@ content:
         sub_title: Software Developer
         caption: November 2013 - Present
         description: | # this will include new lines to allow paragraphs
+            
+            
             <strong>GasNet (Lead Developer, Architect)</strong> 
-            Developing a prototype for GasNet's MDMS Smart Meter Data Ingestion system.
-            This trial system captures data from multiple manufacturers' data loggers, and allows GasNet to record and analyse gas usage for their customers. 
-            Work has also been carried out to integrate MDMS with their legacy MiDAS system.
+
             <mark>C#</mark>, 
             <mark>PostgreSQL</mark>, 
             <mark>Azure CI/CD</mark>
 
+            Developed a prototype for GasNet's MDMS Smart Meter Data Ingestion system.
+            This trial system captures data from multiple manufacturers' data loggers, and allows GasNet to record and analyse gas usage for their customers. 
+            Work has also been carried out to integrate MDMS with their legacy MiDAS system.
+
+            Maintaining and enhancing GasNet's MiDAS retailer billing system.
+
+            
+            
             <strong>Northland Regional Council (Developer)</strong>
 
+            <mark>C#</mark>, <mark>WSDL/SOAP</mark>, <mark>REST/JSON</mark>, <mark>TechOne</mark>, <mark>SQL Spatial</mark>
+            
             Further developed NRC's TechOne Adaptor, a system that integrates IRIS (Integrated Regional Information System) with TechOne Finance, to port the integration to TechOne's CiAnywhere cloud-based service.
             Work involved moving parts of the system from a legacy WSDL/SOAP interface to their newer REST/JSON interface, and moving from an old version of DotNet Framework to a newer DotNet Core code base.
             
-            <mark>C#</mark>, <mark>WSDL/SOAP</mark>, <mark>REST/JSON</mark>, <mark>TechOne</mark>
+            Offering specialist knowledge in TechOne integration, and other technologies.
+            
 
+            
+            
             <strong>Lynker Analytics and Zealandia Consulting (Architect and Developer)</strong>
 
-            Developed and deployed several Envirocam systems for a series of off-grid solar powered cameras to monitor a number of construction an industrial sites in Auckland.
-            Two versions of device were created, the first a Raspberry Pi Zero using Python, and a second Microcontroller based version using C,  with the aim of reducing power requirements and the costs of components.
-
-            Following the initial 6 month development phase, Venari then ran a 6 month fixed-price support contract for the cameras including servicing and on-going development.
-            
             <mark>C#</mark>, <mark>PostgreSQL</mark>, <mark>Python</mark>, <mark>Azure CI/CD</mark>, <mark>C</mark>, <mark>Embedded</mark>
 
+            Developed and deployed several Envirocam systems to monitor a number of construction and industrial sites in Auckland.
+            Two versions of the device were created, the first a Raspberry Pi Zero using Python, and a second Microcontroller based version using C  with the aim of reducing power requirements and the costs of components.
+
+            Following the initial 6 month development phase, I ran a 6 month fixed-price support contract for the cameras including servicing and on-going development.
+                      
+
+            
+            
             <strong>Lynker Analytics (Lead Developer)</strong>
+
+            <mark>C#</mark>, <mark>PostgreSQL</mark>, <mark>PostGIS</mark>, <mark>AWS CI/CD</mark>, <mark>LeafletJS</mark>
 
             Developed the CarbonCommit geospatial data entry system, part of the Net Carbon Zero Mapping System for Silver Fern Farms and their suppliers and farmers to verify carbon credits as part of their Net Zero Carbon programme.
             In 2023 Silver Farm Farms & Lynker Analytics won the Datamars Livestock Technology Award at the Beef and Lamb New Zealand Awards for The Net Carbon Zero Mapping System.
             
-            <mark>C#</mark>, <mark>PostgreSQL</mark>, <mark>PostGIS</mark>, <mark>AWS CI/CD</mark>, <mark>LeafletJS</mark>
-
+            
+            
+            
             <strong>Manulife Investment Management Timberland and Agriculture Inc (formally HNRG) (Lead Developer)</strong>
-            Designed, Developed and managed backend API for MIMTA's new internal Latitude Forestry Management System, and deployed to US and NZ workforce.
+
             <mark>C#</mark>, <mark>SQL</mark>, <mark>ArcGIS</mark>, <mark>Azure CI/CD</mark>
 
+            Designed, Developed and managed backend API for MIMTA's new internal Latitude Forestry Management System, and deployed to US and NZ workforce.
+
+            
+            
+            
             <strong>Eagle Technology Group (Lead Developer)</strong>
-            Subcontracted to Eagle, designing and developing software using <mark>C#</mark>, <mark>React/Redux</mark>, <mark>SQL</mark>, <mark>ArcGIS</mark>, <mark>Docker</mark>, <mark>AWS</mark> for various clients including:
+            
+            <mark>C#</mark>, <mark>React/Redux</mark>, <mark>SQL</mark>, <mark>ArcGIS</mark>, <mark>Docker</mark>, <mark>AWS</mark> 
+
+            Subcontracted to Eagle, designing and developing software for various clients including:
             <ul>
               <li>NZ Police</li> 
               <li>Auckland Transport</li>
@@ -195,20 +225,32 @@ content:
               <li>NZ Archaeological Association</li>
             </ul>
 
-            <strong>GasNet (Lead Developer)</strong> 
-            Maintaining and enhancing GasNet's MiDAS retailer billing system <mark>C#</mark>, <mark>SQL</mark>
-
+            
+            
+            
             <strong>BureauCo (Lead Developer)</strong> 
-            Maintaining and enhancing BureauCo's Plan.IT.Road system <mark>C#</mark>, <mark>ArcGIS</mark>, <mark>Silverlight</mark>
 
-            <strong>Northland Regional Council (Developer)</strong> 
-            Offering specialist knowledge in TechOne integration, and <mark>C#</mark>, <mark>WSDL/SOAP</mark>, <mark>SQL Spatial</mark>
+            <mark>C#</mark>, <mark>ArcGIS</mark>, <mark>Silverlight</mark>
 
+            Maintained and enhanced BureauCo's Plan.IT.Road system
+
+            
+            
+            
             <strong>Astara Technologies (Lead Developer)</strong>
-            Supporting and Dockerising Astara's embedded Battery Management System visualisation software <mark>C#</mark>, <mark>AngularJS</mark>
 
+            <mark>C#</mark>, <mark>AngularJS</mark>
+
+            Supported and Dockerised Astara's embedded Battery Management System visualisation software.
+
+            
+            
+            
             <strong>Whirinaki Whare Taonga (Lead Developer, Support)</strong>	
-            Maintaining Whirinaki's website <mark>Silverstripe</mark>, <mark>JavaScript</mark>
+
+            <mark>Silverstripe</mark>, <mark>JavaScript</mark>
+
+            Maintained and updated Whirinaki's website
             
       - layout: left
         border: weak
