@@ -64,86 +64,6 @@ about_content: | # this will include new lines to allow paragraphs
   If you would like to read a more in-depth story about me, here's an [article](https://venari.co.nz/about/).
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        border: weak
-        title: Envirocam
-        caption: January 2022 - Present
-        link: https://venari.co.nz/envirocam
-        # link_text: Project Website
-        additional_links:
-          - title:  venari/envirocam
-            icon: fab fa-github
-            url: github.com/venari/timelapse
-        # quote: >
-        #   ...
-        description: | # this will include new lines to allow paragraphs
-          <mark>C#</mark>, <mark>PostgreSQL</mark>, <mark>Python</mark>, <mark>Azure CI/CD</mark>, <mark>Embedded</mark> 
-
-          Originating as a tool for creating long term off-grid timelapses of construction and infrastructure projects spanning months or years, this became a platform for remote imagery acquisition.
-          Several of these cameras have been used in the field for a year by a Council for near realtime remote collection of evidence of waterway pollution.
-
-          Using a Raspberry Pi, Pi Juice and solar power, these devices can run for months or years without external power, and send telemetry and imagery to a central server ensuring that in the event of theft, imagery is preserved.
-
-          Offered both as open-source software and hardware with option for self-hosting, and as a managed service to construction industry and enforcement agencies in New Zealand.
-
-      - layout: top-middle
-        border: weak
-        title: Drone Hyperlapse Service
-        caption: December 2018 - Present
-        link: https://venari.co.nz/hyperlapse
-        # link_text: Project Website
-        # quote: >
-        #   ...
-        description: | # this will include new lines to allow paragraphs
-            <mark>Litchi</mark>, <mark>Adobe After Effects</mark>, <mark>RPA Flight Management (CAA Part 101)</mark>
-
-            In addition to Drone photography and videography, I initiated and refined a drone hyperlapse creation service to help organisations communicate progress of their projects to stakeholders and the public.
-            By aligning and stitching together multiple captures of a site, we create a seamless story to show the progression of projects across many months or years.
-
-      - layout: top-middle
-        border: weak
-        title: Pro bono IT Advice and Support
-        caption: November 2016 - Present
-        description: | # this will include new lines to allow paragraphs
-            I give IT support and advice to a local Women's Refuge Service in Porirua. 
-            In addition to general IT support and procurement assistance, I migrated their office environment to Office 365 and helped migrate systems and records to the cloud.
-
-      - layout: top-middle
-        border: weak
-        title: Coder Dojo Porirua
-        caption: 2013 - 2019
-        link: https://coderdojo.nz
-        # link_text: Project Website
-        additional_links:
-          - title:  Coder Dojo Porirua
-            icon: fab fa-facebook
-            url: https://www.facebook.com/CoderDojoPorirua
-        # quote: >
-        #   ...
-        description: | # this will include new lines to allow paragraphs
-            I founded the Porirua CoderDojo, part of a global collection of free clubs inspiring and teaching children aged 5-15 about coding. 
-            We used the graphical programming language Scratch for beginners and JavaScript and Arduino for older kids to expose young inquisitive minds to programming and computational thinking.
-
-      - layout: top-middle
-        title: Tile38 Viewer
-        caption: September 2019
-        # link: https://coderdojo.nz
-        # link_text: Project Website
-        additional_links:
-          - title:  Github project
-            icon: fab fa-github
-            url: https://github.com/leighghunt/tile38-viewer/
-        # quote: >
-        #   ...
-        description: | # this will include new lines to allow paragraphs
-            <mark>C#</mark>, <mark>Docker</mark>, <mark>Leaflet</mark>
-
-            Developed a tool to visualise geofences and realtime events in Tile38 on a map
-
-
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -380,6 +300,89 @@ content:
         description: | # this will include new lines to allow paragraphs
             Part of a small team designing, implementing and testing the new Windows version of the company's DOS based financial planning software suite.
             The project was developed using Visual C++ and OOD methods to produce flexible and maintainable code.
+
+
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        border: weak
+        title: Envirocam
+        caption: January 2022 - Present
+        link: https://venari.co.nz/envirocam
+        # link_text: Project Website
+        additional_links:
+          - title:  venari/envirocam
+            icon: fab fa-github
+            url: github.com/venari/timelapse
+        # quote: >
+        #   ...
+        description: | # this will include new lines to allow paragraphs
+          <mark>C#</mark>, <mark>PostgreSQL</mark>, <mark>Python</mark>, <mark>Azure CI/CD</mark>, <mark>Embedded</mark> 
+
+          Originating as a tool for creating long term off-grid timelapses of construction and infrastructure projects spanning months or years, this became a platform for remote imagery acquisition.
+          Several of these cameras have been used in the field for a year by a Council for near realtime remote collection of evidence of waterway pollution.
+
+          Using a Raspberry Pi, Pi Juice and solar power, these devices can run for months or years without external power, and send telemetry and imagery to a central server ensuring that in the event of theft, imagery is preserved.
+
+          Offered both as open-source software and hardware with option for self-hosting, and as a managed service to construction industry and enforcement agencies in New Zealand.
+
+      - layout: top-middle
+        border: weak
+        title: Drone Hyperlapse Service
+        caption: December 2018 - Present
+        link: https://venari.co.nz/hyperlapse
+        # link_text: Project Website
+        # quote: >
+        #   ...
+        description: | # this will include new lines to allow paragraphs
+            <mark>Litchi</mark>, <mark>Adobe After Effects</mark>, <mark>RPA Flight Management (CAA Part 101)</mark>
+
+            In addition to Drone photography and videography, I initiated and refined a drone hyperlapse creation service to help organisations communicate progress of their projects to stakeholders and the public.
+            By aligning and stitching together multiple captures of a site, we create a seamless story to show the progression of projects across many months or years.
+
+      - layout: top-middle
+        border: weak
+        title: Pro bono IT Advice and Support
+        caption: November 2016 - Present
+        description: | # this will include new lines to allow paragraphs
+            I give IT support and advice to a local Women's Refuge Service in Porirua. 
+            In addition to general IT support and procurement assistance, I migrated their office environment to Office 365 and helped migrate systems and records to the cloud.
+
+      - layout: top-middle
+        border: weak
+        title: Coder Dojo Porirua
+        caption: 2013 - 2019
+        link: https://coderdojo.nz
+        # link_text: Project Website
+        additional_links:
+          - title:  Coder Dojo Porirua
+            icon: fab fa-facebook
+            url: https://www.facebook.com/CoderDojoPorirua
+        # quote: >
+        #   ...
+        description: | # this will include new lines to allow paragraphs
+            I founded the Porirua CoderDojo, part of a global collection of free clubs inspiring and teaching children aged 5-15 about coding. 
+            We used the graphical programming language Scratch for beginners and JavaScript and Arduino for older kids to expose young inquisitive minds to programming and computational thinking.
+
+      - layout: top-middle
+        title: Tile38 Viewer
+        caption: September 2019
+        # link: https://coderdojo.nz
+        # link_text: Project Website
+        additional_links:
+          - title:  Github project
+            icon: fab fa-github
+            url: https://github.com/leighghunt/tile38-viewer/
+        # quote: >
+        #   ...
+        description: | # this will include new lines to allow paragraphs
+            <mark>C#</mark>, <mark>Docker</mark>, <mark>Leaflet</mark>
+
+            Developed a tool to visualise geofences and realtime events in Tile38 on a map
+
+
+
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
