@@ -80,13 +80,14 @@ content:
         # quote: >
         #   ...
         description: | # this will include new lines to allow paragraphs
+          <mark>C#</mark>, <mark>PostgreSQL</mark>, <mark>Python</mark>, <mark>Azure CI/CD</mark>, <mark>Embedded</mark> 
+
           Originating as a tool for creating long term off-grid timelapses of construction and infrastructure projects spanning months or years, this became a platform for remote imagery acquisition.
           Several of these cameras have been used in the field for a year by a Council for near realtime remote collection of evidence of waterway pollution.
 
           Using a Raspberry Pi, Pi Juice and solar power, these devices can run for months or years without external power, and send telemetry and imagery to a central server ensuring that in the event of theft, imagery is preserved.
 
           Offered both as open-source software and hardware with option for self-hosting, and as a managed service to construction industry and enforcement agencies in New Zealand.
-          <mark>C#</mark>, <mark>PostgreSQL</mark>, <mark>Python</mark>, <mark>Azure CI/CD</mark>, <mark>Embedded</mark> 
 
       - layout: top-middle
         border: weak
@@ -97,9 +98,10 @@ content:
         # quote: >
         #   ...
         description: | # this will include new lines to allow paragraphs
+            <mark>Litchi</mark>, <mark>Adobe After Effects</mark>, <mark>RPA Flight Management (CAA Part 101)</mark>
+
             In addition to Drone photography and videography, I initiated and refined a drone hyperlapse creation service to help organisations communicate progress of their projects to stakeholders and the public.
             By aligning and stitching together multiple captures of a site, we create a seamless story to show the progression of projects across many months or years.
-            <mark>Litchi</mark>, <mark>Adobe After Effects</mark>, <mark>RPA Flight Management (CAA Part 101)</mark>
 
       - layout: top-middle
         border: weak
@@ -137,8 +139,9 @@ content:
         # quote: >
         #   ...
         description: | # this will include new lines to allow paragraphs
-            Developed a tool to visualise geofences and realtime events in Tile38 on a map
             <mark>C#</mark>, <mark>Docker</mark>, <mark>Leaflet</mark>
+
+            Developed a tool to visualise geofences and realtime events in Tile38 on a map
 
 
 
