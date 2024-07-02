@@ -217,7 +217,7 @@ content:
 
               <mark>NodeJS</mark>, <mark>Embedded</mark>
 
-              Astara Technologies develops battery management systems (BMS), and needed to visualise the data recorded by two electric motorbikes. The Energy Management Dashboard took data from the BMS, integrated GPS and video feed, and eased analysis by displaying a sychronised video feed, map and graphs representing battery performance.
+              Astara Technologies developed battery management systems (BMS), and needed to visualise the data recorded by two electric motorbikes. The Energy Management Dashboard took data from the BMS, integrated GPS and video feed, and eased analysis by displaying a sychronised video feed, map and graphs representing battery performance.
 
             <strong>Wellington City Council (Analyst/Developer)</strong>
 
@@ -274,13 +274,13 @@ content:
 
               <mark>C#</mark>
 
-              Working in London Finance office, supporting “FirmControl” and Generic Reporting applications, used to monitor the financial performance of this £780m firm.
+              Worked in London Finance office, supporting “FirmControl” and Generic Reporting applications, used to monitor the financial performance of this £780m firm.
 
             <strong>KA Technology Ltd (Analyst/Developer)</strong>
               
               <mark>C#</mark>, <mark>Office Open XML</mark>
 
-              Subcontracting to KA Technology, developing a Document Assembly Module for KA Technology's legal sector client and integrating with a Document Management System.
+              Subcontracted to KA Technology, developed a Document Assembly Module for KA Technology's legal sector client and integrated with a Document Management System.
 
             <strong>Highways Agency (Analyst/Developer)</strong>
 
@@ -326,7 +326,7 @@ content:
 
               <mark>ASP Classic</mark>, <mark>SQL</mark>
 
-              Enhancing and developing The National Archives Document Ordering System (DORIS), and document import system (DUPION).
+              Enhanced and developed The National Archives Document Ordering System (DORIS), and document import system (DUPION).
               Captured requirements for a space management system, to help TNA staff to manage the document repositories (currently spanning over 100 miles of shelving).
 
             <strong>Food Standards Agency (Technical Architect/Developer, Team Leader)</strong>
@@ -345,7 +345,7 @@ content:
 
               <mark>C++</mark>, <mark>Oracle</mark>
 
-              Porting UKHO's Cobol/DG based system to C++/Windows NT as part of a Y2K GIS Data migration project.
+              Supported UKHO port their Cobol/DG based system to C++/Windows NT as part of a Y2K GIS Data migration project.
               Instigated and conducted code reviews of new and existing code being produced by members of Laser-Scan's 25+ strong GOTHIC development team.
             
       - layout: left
@@ -361,7 +361,7 @@ content:
 
             <mark>C++</mark>, <mark>SQL</mark>, <mark>MSDE</mark>
 
-            Part of a small team designing, implementing and testing the new Windows version of the company's DOS based financial planning software suite.
+            Part of a small team that designed, implemented and tested the new Windows version of the company's DOS based financial planning software suite.
             The project was developed using Visual C++ and OOD methods to produce flexible and maintainable code.
 
 
