@@ -68,7 +68,7 @@ content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-middle
         border: weak
         title: Venari Ltd
         link: venari.co.nz
@@ -175,7 +175,7 @@ content:
 
             Maintained and updated Whirinaki's website
             
-      - layout: left
+      - layout: top-middle
         border: weak
         title: Splice Group Ltd
         # link: venari.co.nz
@@ -239,7 +239,7 @@ content:
               Implemented customisations to ArcGIS to enable ACC's legacy smallworld application to be migrated to Esri ArcGIS. Also implemented an ETL component that allowed FME to synchronise the data between the two different systems.
 
 
-      - layout: left
+      - layout: top-middle
         border: weak
         title: Explorer Graphics Ltd
         # link: venari.co.nz
@@ -261,7 +261,7 @@ content:
               Implemented customisations to ArcPad to allow users to quickly record information during surveys, including cemetery headstones and water service infrastructure. Data could then be synchronised into ArcGIS for further analysis.
 
 
-      - layout: left
+      - layout: top-middle
         border: weak
         title: Swordfish Business Solutions (UK)
         # link: venari.co.nz
@@ -289,7 +289,7 @@ content:
               Enhancements to the Energy Procurement System Project, which in its first year of operation saved the client over $1M.
 
 
-      - layout: left
+      - layout: top-middle
         border: weak
         title: Atkins Management Consultants (UK)
         link: www.atkinsglobal.com
@@ -348,7 +348,7 @@ content:
               Supported UKHO port their Cobol/DG based system to C++/Windows NT as part of a Y2K GIS Data migration project.
               Instigated and conducted code reviews of new and existing code being produced by members of Laser-Scan's 25+ strong GOTHIC development team.
             
-      - layout: left
+      - layout: top-middle
         # border: weak
         title: Financial Planning Software Ltd (UK)
         # link: venari.co.nz
