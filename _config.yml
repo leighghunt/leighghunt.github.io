@@ -41,7 +41,9 @@ additional_links:
 - title: venari.co.nz
   icon: fas fa-globe
   url: https://venari.co.nz
-# - title: another link
+- title: PDF Download
+  icon: far fa-file-pdf
+  url: https://github.com/leighghunt/leighghunt.github.io/raw/main/pdf/LeighHunt-SoftwareDeveloper.pdf
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
 
