@@ -72,7 +72,7 @@ content:
         border: weak
         title: Venari Ltd
         link: venari.co.nz
-        sub_title: Software Developer
+        sub_title: Founder, Technical Director, Software Developer
         caption: November 2013 - Present
         description: | # this will include new lines to allow paragraphs
             
@@ -98,7 +98,7 @@ content:
             Further developed NRC's TechOne Adaptor, a system that integrates IRIS (Integrated Regional Information System) with TechOne Finance, to port the integration to TechOne's CiAnywhere cloud-based service.
             Work involved moving parts of the system from a legacy WSDL/SOAP interface to their newer REST/JSON interface, and moving from an old version of DotNet Framework to a newer DotNet Core code base.
             
-            Offering specialist knowledge in TechOne integration, and other technologies.
+            Offered specialist knowledge in TechOne integration, and other technologies.
             
 
             
@@ -162,7 +162,7 @@ content:
             
             <strong>Astara Technologies (Lead Developer)</strong>
 
-            <mark>C#</mark>, <mark>AngularJS</mark>
+            <mark>NodeJS</mark>, <mark>AngularJS</mark>, <mark>Embedded</mark>, <mark>Docker</mark>
 
             Supported and Dockerised Astara's embedded Battery Management System visualisation software.
 
@@ -180,39 +180,63 @@ content:
         title: Splice Group Ltd
         # link: venari.co.nz
         # link_text: boringcompany.com
-        sub_title: Technical Director, Principal Consultant, Analyst/Developer
+        sub_title: Founder, Technical Director, Principal Consultant, Analyst/Developer
         caption: 2010 - 2013
         quote: >
           Splice were finalists in the Cyber Gold category of the 2012 Wellington Gold Awards, and won the ICT Category in the 2011 Westpac Porirua City Business Excellence Awards.
         description: | # this will include new lines to allow paragraphs
             
             <strong>Northland Regional Council (Developer)</strong>
-            Integrated NRC's TechOne finance system with the cross-regional Integrated Regional Information System, enabling data entered into IRIS to be synchronised with TechOne.
-            Implemented a WCF service that published WSDL interface consumed by IRIS, and in turn wrote data to TechOne using its web service.
+
+              <mark>C#</mark>, <mark>WSDL/SOAP</mark>, <mark>TechOne</mark>, <mark>SQL Spatial</mark>
+
+              Integrated NRC's TechOne finance system with the cross-regional Integrated Regional Information System, enabling data entered into IRIS to be synchronised with TechOne.
+              Implemented a WCF service that published WSDL interface consumed by IRIS, and in turn wrote data to TechOne using its web service.
 
             <strong>AGS Ltd (Developer)</strong>
-            Sub-contracted to Eagle Technology Ltd to develop an unexploded ordnance clearance request application. Developed using Service Stack, SQL Server and ArcGIS, the application enabled users to request land near oil fields in Iraq to be cleared of UXO. The application used the ArcGIS JavaScript API, Bootstrap, and dual-factor authentication.
+
+              <mark>C#</mark>, <mark>ServiceStack</mark>, <mark>ArcGIS</mark>
+              
+              Sub-contracted to Eagle Technology Ltd to develop an unexploded ordnance clearance request application. Developed using Service Stack, SQL Server and ArcGIS, the application enabled users to request land near oil fields in Iraq to be cleared of UXO. The application used the ArcGIS JavaScript API, Bootstrap, and dual-factor authentication.
 
             <strong>BureauCo (Analyst/Developer)</strong>
-            Migrated PLAN.IT.road roading corridor management application from ArcIMS to ArcGIS and Silverlight.
-            Made several enhancements and stability improvements to the application, including enabling support for The National Code of Practice for Utility Operators' Access to Transport Corridors.
+
+              <mark>C#</mark>, <mark>Silverlight</mark>, <mark>ArcGIS</mark>
+
+              Migrated PLAN.IT.road roading corridor management application from ArcIMS to ArcGIS and Silverlight.
+              Made several enhancements and stability improvements to the application, including enabling support for The National Code of Practice for Utility Operators' Access to Transport Corridors.
 
             <strong>Hutt City Council, Selwyn District Council, Kapiti District Council, Upper Hutt City Council (Analyst/Developer)</strong>
-            Developed Splice Group's LIM application, streamlining councils' manual LIM processes by automating retrieval of data from geospatial and finance systems, and generating final output.
-            Integrated with ArcGIS, TechnologyOne (PropertyCI), and NCS.
+
+              <mark>C#</mark>, <mark>ArcGIS</mark>
+
+              Developed Splice Group's LIM application, streamlining councils' manual LIM processes by automating retrieval of data from geospatial and finance systems, and generating final output.
+              Integrated with ArcGIS, TechnologyOne (PropertyCI), and NCS.
 
             <strong>Astara Technologies  (Developer)</strong>
-            Astara Technologies develops battery management systems (BMS), and needed to visualise the data recorded by two electric motorbikes. The Energy Management Dashboard took data from the BMS, integrated GPS and video feed, and eased analysis by displaying a sychronised video feed, map and graphs representing battery performance.
+
+              <mark>NodeJS</mark>, <mark>Embedded</mark>
+
+              Astara Technologies develops battery management systems (BMS), and needed to visualise the data recorded by two electric motorbikes. The Energy Management Dashboard took data from the BMS, integrated GPS and video feed, and eased analysis by displaying a sychronised video feed, map and graphs representing battery performance.
 
             <strong>Wellington City Council (Analyst/Developer)</strong>
-            Sub-contracted to Eagle Technology Ltd, undertook an independent Architecture Review for WCC's internal CityView application, a legacy Java/ArcGIS/JavaScript system which was experiencing a number of performance issues. 
-            Produced a report with a number of recommendations, and helped WCC implement some of those recommendations.
+
+              <mark>ArcGIS</mark>, <mark>JavaScript</mark>
+
+              Sub-contracted to Eagle Technology Ltd, undertook an independent Architecture Review for WCC's internal CityView application, a legacy Java/ArcGIS/JavaScript system which was experiencing a number of performance issues. 
+              Produced a report with a number of recommendations, and helped WCC implement some of those recommendations.
 
             <strong>GasNet (Developer)</strong>
-            Took over support and maintenance of GasNet's retailer billing system, developing enhancements to support legislative changes to the gas industry in New Zealand.
+            
+              <mark>C#</mark>, <mark>SQL</mark>, 
+
+              Took over support and maintenance of GasNet's retailer billing system, developing enhancements to support legislative changes to the gas industry in New Zealand.
 
             <strong>Auckland City Council (Analyst/Developer)</strong>
-            Implemented customisations to ArcGIS to enable ACC's legacy smallworld application to be migrated to Esri ArcGIS. Also implemented an ETL component that allowed FME to synchronise the data between the two different systems.
+
+              <mark>C#</mark>, <mark>ArcGIS ArcObjects</mark>
+
+              Implemented customisations to ArcGIS to enable ACC's legacy smallworld application to be migrated to Esri ArcGIS. Also implemented an ETL component that allowed FME to synchronise the data between the two different systems.
 
 
       - layout: left
@@ -225,10 +249,16 @@ content:
         description: | # this will include new lines to allow paragraphs
             
             <strong>XPLview (Team Leader, Developer)</strong>
-            Lead a team developing EGL's XPLview application, which enabled councils to expose their ArcIMS and ArcGIS servers, integrated with financial and property systems, as public facing web applications.
+              
+              <mark>C#</mark>, <mark>JavaScript</mark>, <mark>ArcGIS</mark>, <mark>ArcIMS</mark>
+
+              Lead a team developing EGL's XPLview application, which enabled councils to expose their ArcIMS and ArcGIS servers, integrated with financial and property systems, as public facing web applications.
 
             <strong>SurveyLab Ike (Developer)</strong>
-            Implemented customisations to ArcPad to allow users to quickly record information during surveys, including cemetery headstones and water service infrastructure. Data could then be synchronised into ArcGIS for further analysis.
+
+              <mark>ArcPad</mark>, <mark>ArcGIS</mark>, <mark>VB Script</mark>
+
+              Implemented customisations to ArcPad to allow users to quickly record information during surveys, including cemetery headstones and water service infrastructure. Data could then be synchronised into ArcGIS for further analysis.
 
 
       - layout: left
@@ -241,13 +271,22 @@ content:
         description: | # this will include new lines to allow paragraphs
 
             <strong>Freshfields Bruckhaus Deringer (Developer)</strong>
-            Working in London Finance office, supporting “FirmControl” and Generic Reporting applications, used to monitor the financial performance of this £780m firm.
+
+              <mark>C#</mark>
+
+              Working in London Finance office, supporting “FirmControl” and Generic Reporting applications, used to monitor the financial performance of this £780m firm.
 
             <strong>KA Technology Ltd (Analyst/Developer)</strong>
-            Subcontracting to KA Technology, developing a Document Assembly Module for KA Technology's legal sector client and integrating with a Document Management System.
+              
+              <mark>C#</mark>, <mark>Office Open XML</mark>
+
+              Subcontracting to KA Technology, developing a Document Assembly Module for KA Technology's legal sector client and integrating with a Document Management System.
 
             <strong>Highways Agency (Analyst/Developer)</strong>
-            Enhancements to the Energy Procurement System Project, which in its first year of operation saved the client over $1M.
+
+              <mark>C++</mark>, <mark>SQL</mark>
+
+              Enhancements to the Energy Procurement System Project, which in its first year of operation saved the client over $1M.
 
 
       - layout: left
@@ -259,34 +298,55 @@ content:
         caption: 1998 - 2005
         description: | # this will include new lines to allow paragraphs
             <strong>The Office of Rail Regulation (Analyst/Developer)</strong>
-            Several engagements with ORR over 5 years, resulting in:
-            -	Specification and development of a SQL Server based contact management system.
-            -	Integrated the contact management system with the organisation's document management and production system.
-            -	Supported internal development of a database recording accessibility issues at rail stations, and reporting KPIs.
-            -	Developed an application for managing the workflow for the department's scanned documents.
+
+              <mark>MS Office Automation</mark>, <mark>SQL</mark>, <mark>C#</mark>
+
+              Several engagements with ORR over 5 years, resulting in:
+              -	Specification and development of a SQL Server based contact management system.
+              -	Integrated the contact management system with the organisation's document management and production system.
+              -	Supported internal development of a database recording accessibility issues at rail stations, and reporting KPIs.
+              -	Developed an application for managing the workflow for the department's scanned documents.
             
             <strong>British Airports Authority (Business Analyst)</strong>
-            Business Analyst for BAA's 600+ user, mission critical, Staff Information System at Heathrow and Stansted.
-            Performed stakeholder analysis, and led workshops and interviews with key airside and landside users from 28 internal departments and external organisations, gathering business requirements for the replacement system.
-            At the end of this £1M+ project's feasibility phase, I formed part of the supplier selection panel.
-            Later produced the Site Acceptance Test plan for the installation of the Automated Public Announcement System at terminals 1-4. 
+
+              <mark>Business Analysis</mark>
+
+              Business Analyst for BAA's 600+ user, mission critical, Staff Information System at Heathrow and Stansted.
+              Performed stakeholder analysis, and led workshops and interviews with key airside and landside users from 28 internal departments and external organisations, gathering business requirements for the replacement system.
+              At the end of this £1M+ project's feasibility phase, I formed part of the supplier selection panel.
+              Later produced the Site Acceptance Test plan for the installation of the Automated Public Announcement System at terminals 1-4. 
 
             <strong>Highways Agency (Developer)</strong>
-            Development of the Energy Procurement System Project, which in its first year of operation saved the client over $1M.
+
+              <mark>C++</mark>, <mark>SQL</mark>
+
+              Development of the Energy Procurement System Project, which in its first year of operation saved the client over $1M.
 
             <strong>The National Archives (Developer)</strong>
-            Enhancing and developing The National Archives Document Ordering System (DORIS), and document import system (DUPION).
-            Captured requirements for a space management system, to help TNA staff to manage the document repositories (currently spanning over 100 miles of shelving).
+
+              <mark>ASP Classic</mark>, <mark>SQL</mark>
+
+              Enhancing and developing The National Archives Document Ordering System (DORIS), and document import system (DUPION).
+              Captured requirements for a space management system, to help TNA staff to manage the document repositories (currently spanning over 100 miles of shelving).
 
             <strong>Food Standards Agency (Technical Architect/Developer, Team Leader)</strong>
-            Designed, developed and led a team of four developers for FSA's Nutrient Databank application for collating and calculating food nutritional information.
+
+              <mark>C#</mark>, <mark>SQL</mark>
+
+              Designed, developed and led a team of four developers for FSA's Nutrient Databank application for collating and calculating food nutritional information.
 
             <strong>British Energy (Developer)</strong>
-            Responsible for development and deployment of patches to GCORE, a system used to model the effect of seismic activity on nuclear reactor cores.
+
+              <mark>C#</mark>
+
+              Responsible for development and deployment of patches to GCORE, a system used to model the effect of seismic activity on nuclear reactor cores.
 
             <strong>UK Hydrographic Office (Developer)</strong>
-            Porting UKHO's Cobol/DG based system to C++/Windows NT as part of a Y2K GIS Data migration project.
-            Instigated and conducted code reviews of new and existing code being produced by members of Laser-Scan's 25+ strong GOTHIC development team.
+
+              <mark>C++</mark>, <mark>Oracle</mark>
+
+              Porting UKHO's Cobol/DG based system to C++/Windows NT as part of a Y2K GIS Data migration project.
+              Instigated and conducted code reviews of new and existing code being produced by members of Laser-Scan's 25+ strong GOTHIC development team.
             
       - layout: left
         # border: weak
@@ -298,6 +358,9 @@ content:
         # quote: >
         #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
+
+            <mark>C++</mark>, <mark>SQL</mark>, <mark>MSDE</mark>
+
             Part of a small team designing, implementing and testing the new Windows version of the company's DOS based financial planning software suite.
             The project was developed using Visual C++ and OOD methods to produce flexible and maintainable code.
 
