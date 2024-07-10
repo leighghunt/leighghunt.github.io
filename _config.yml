@@ -110,7 +110,7 @@ content:
             <mark>C#</mark>, <mark>PostgreSQL</mark>, <mark>Python</mark>, <mark>Azure CI/CD</mark>, <mark>C</mark>, <mark>Embedded</mark>
 
             Developed and deployed several Envirocam systems to monitor several construction and industrial sites in Auckland.
-            Two versions of the device were created, the first a Raspberry Pi Zero using Python, and a second Microcontroller based version using C  with the aim of reducing power requirements and the costs of components.
+            Two versions of the device were created, the first a Raspberry Pi Zero using Python, and a second Microcontroller based version using C++  with the aim of reducing power requirements and the costs of components.
 
             Following the initial 6-month development phase, I ran a 6-month fixed-price support contract for the cameras including servicing and on-going development.
                       
@@ -119,7 +119,7 @@ content:
             
             <strong>Lynker Analytics (Lead Developer)</strong>
 
-            <mark>C#</mark>, <mark>PostgreSQL</mark>, <mark>PostGIS</mark>, <mark>AWS CI/CD</mark>, <mark>LeafletJS</mark>
+            <mark>C#</mark>, <mark>PostgreSQL</mark>, <mark>PostGIS</mark>, <mark>CI/CD</mark>, <mark>AWS ECS</mark>, <mark>Docker</mark>, <mark>LeafletJS</mark>
 
             Developed the CarbonCommit geospatial data entry system, part of the Net Carbon Zero Mapping System for Silver Fern Farms and their suppliers and farmers to verify carbon credits as part of their Net Zero Carbon programme.
             In 2023 Silver Farm Farms & Lynker Analytics won the Datamars Livestock Technology Award at the Beef and Lamb New Zealand Awards for The Net Carbon Zero Mapping System.
