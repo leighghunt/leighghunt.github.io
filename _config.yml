@@ -107,7 +107,7 @@ content:
             
             <strong>Lynker Analytics and Zealandia Consulting (Architect and Developer)</strong>
 
-            <mark>C#</mark>, <mark>PostgreSQL</mark>, <mark>Python</mark>, <mark>Azure CI/CD</mark>, <mark>C</mark>, <mark>Embedded</mark>
+            <mark>C#</mark>, <mark>PostgreSQL</mark>, <mark>Python</mark>, <mark>Azure CI/CD</mark>, <mark>C++</mark>, <mark>Embedded</mark>
 
             Developed and deployed several Envirocam systems to monitor several construction and industrial sites in Auckland.
             Two versions of the device were created, the first a Raspberry Pi Zero using Python, and a second Microcontroller based version using C++  with the aim of reducing power requirements and the costs of components.
