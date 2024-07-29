@@ -79,7 +79,7 @@ content:
         description: | # this will include new lines to allow paragraphs
             
             
-            <strong>GasNet (Lead Developer, Architect)</strong> 
+            <strong>GasNet (Lead Developer, Architect, Nov 2013 - May 2024)</strong>
 
             <mark>C#</mark>, 
             <mark>PostgreSQL</mark>, 
@@ -93,7 +93,7 @@ content:
 
             
             
-            <strong>Northland Regional Council (Developer)</strong>
+            <strong>Northland Regional Council (Developer, Feb - May 2024)</strong>
 
             <mark>C#</mark>, <mark>WSDL/SOAP</mark>, <mark>REST/JSON</mark>, <mark>TechOne</mark>, <mark>SQL Spatial</mark>
             
@@ -105,7 +105,7 @@ content:
 
             
             
-            <strong>Lynker Analytics and Zealandia Consulting (Architect and Developer)</strong>
+            <strong>Lynker Analytics and Zealandia Consulting (Architect and Developer, Feb 2023 - Jul 2024)</strong>
 
             <mark>C#</mark>, <mark>PostgreSQL</mark>, <mark>Python</mark>, <mark>Azure CI/CD</mark>, <mark>C++</mark>, <mark>Embedded</mark>
 
@@ -117,7 +117,7 @@ content:
 
             
             
-            <strong>Lynker Analytics (Lead Developer)</strong>
+            <strong>Lynker Analytics (Lead Developer, Sep 2022 - Jul 2024)</strong>
 
             <mark>C#</mark>, <mark>PostgreSQL</mark>, <mark>PostGIS</mark>, <mark>CI/CD</mark>, <mark>AWS ECS</mark>, <mark>Docker</mark>, <mark>LeafletJS</mark>
 
@@ -127,7 +127,7 @@ content:
             
             
             
-            <strong>Manulife Investment Management Timberland and Agriculture Inc (formally HNRG) (Lead Developer)</strong>
+            <strong>Manulife Investment Management Timberland and Agriculture Inc (formally HNRG) (Lead Developer, Oct 2019 - Dec 2021)</strong>
 
             <mark>C#</mark>, <mark>SQL</mark>, <mark>ArcGIS</mark>, <mark>Azure CI/CD</mark>
 
@@ -136,7 +136,7 @@ content:
             
             
             
-            <strong>Eagle Technology Group (Lead Developer)</strong>
+            <strong>Eagle Technology Group (Lead Developer, Jul 2014 - Aug 2019)</strong>
             
             <mark>C#</mark>, <mark>React/Redux</mark>, <mark>SQL</mark>, <mark>ArcGIS</mark>, <mark>Docker</mark>, <mark>AWS</mark> 
 
@@ -153,7 +153,7 @@ content:
             
             
             
-            <strong>BureauCo (Lead Developer)</strong> 
+            <strong>BureauCo (Lead Developer, Nov 2013 - May 2015)</strong> 
 
             <mark>C#</mark>, <mark>ArcGIS</mark>, <mark>Silverlight</mark>
 
@@ -162,20 +162,20 @@ content:
             
             
             
-            <strong>Astara Technologies (Lead Developer)</strong>
+            <strong>Astara Technologies (Lead Developer, 2015, 2017, 2019)</strong>
 
             <mark>NodeJS</mark>, <mark>AngularJS</mark>, <mark>Embedded</mark>, <mark>Docker</mark>
 
-            Supported and Dockerised Astara's embedded Battery Management System visualisation software.
+            A series of short engagements, supported and Dockerised Astara's embedded Battery Management System visualisation software.
 
             
             
             
-            <strong>Whirinaki Whare Taonga (Lead Developer, Support)</strong>	
+            <strong>Whirinaki Whare Taonga (Lead Developer, Support, 2017, 2022)</strong>	
 
             <mark>Silverstripe</mark>, <mark>JavaScript</mark>
 
-            Maintained and updated Whirinaki's website
+            Maintained and updated Whirinaki's website, including updating to latest version of Silverstripe, and rebrand in 2022.
             
       - layout: top-middle
         border: weak
