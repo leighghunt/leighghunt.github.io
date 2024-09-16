@@ -77,7 +77,22 @@ content:
         sub_title: Founder, Technical Director, Software Developer
         caption: November 2013 - Present
         description: | # this will include new lines to allow paragraphs
+
+            <strong>Prism Earth Ltd (Lead Developer, Architect, Aug 2024 - present)</strong>
+
+            <mark>C#</mark>, 
+            <mark>ReactJS</mark>, 
+            <mark>PostgreSQL</mark>, 
+            <mark>AWS ECS</mark>
+            <mark>CI/CD</mark>
+            <mark>Terraform</mark>
+            <mark>Docker</mark>
+
+            Developing key parts of the Land Use Compliance System for the Meat Industry Association. 
             
+            The system will enable exporters to track land use and provide Due Diligence Statements to the European Union as part of the Regulation on Deforestation-free Products (EUDR) that comes into effect in December 2024.
+
+            More details soon.
             
             <strong>GasNet (Lead Developer, Architect, Nov 2013 - May 2024)</strong>
 
