@@ -93,7 +93,29 @@ content:
             The system will enable exporters to track land use and provide Due Diligence Statements to the European Union as part of the Regulation on Deforestation-free Products (EUDR) that comes into effect in December 2024.
 
             More details soon.
+
+
+            <strong>Lynker Analytics and Zealandia Consulting (Architect and Developer, Feb 2023 - Jul 2024)</strong>
+
+            <mark>C#</mark>, <mark>PostgreSQL</mark>, <mark>Python</mark>, <mark>Azure CI/CD</mark>, <mark>C++</mark>, <mark>Embedded</mark>
+
+            Developed and deployed several Envirocam systems to monitor several construction and industrial sites in Auckland.
+            Two versions of the device were created, the first a Raspberry Pi Zero using Python, and a second Microcontroller based version using C++  with the aim of reducing power requirements and the costs of components.
+
+            Following the initial 6-month development phase, I ran a 6-month fixed-price support contract for the cameras including servicing and on-going development.
+                      
+
             
+            
+            <strong>Lynker Analytics (Lead Developer, Sep 2022 - Jul 2024)</strong>
+
+            <mark>C#</mark>, <mark>PostgreSQL</mark>, <mark>PostGIS</mark>, <mark>CI/CD</mark>, <mark>AWS ECS</mark>, <mark>Docker</mark>, <mark>LeafletJS</mark>
+
+            Developed the CarbonCommit geospatial data entry system, part of the Net Carbon Zero Mapping System for Silver Fern Farms and their suppliers and farmers to verify carbon credits as part of their Net Zero Carbon programme.
+            In 2023 Silver Farm Farms & Lynker Analytics won the Datamars Livestock Technology Award at the Beef and Lamb New Zealand Awards for The Net Carbon Zero Mapping System.
+            
+            
+
             <strong>GasNet (Lead Developer, Architect, Nov 2013 - May 2024)</strong>
 
             <mark>C#</mark>, 
@@ -118,26 +140,6 @@ content:
             Offered specialist knowledge in TechOne integration, and other technologies.
             
 
-            
-            
-            <strong>Lynker Analytics and Zealandia Consulting (Architect and Developer, Feb 2023 - Jul 2024)</strong>
-
-            <mark>C#</mark>, <mark>PostgreSQL</mark>, <mark>Python</mark>, <mark>Azure CI/CD</mark>, <mark>C++</mark>, <mark>Embedded</mark>
-
-            Developed and deployed several Envirocam systems to monitor several construction and industrial sites in Auckland.
-            Two versions of the device were created, the first a Raspberry Pi Zero using Python, and a second Microcontroller based version using C++  with the aim of reducing power requirements and the costs of components.
-
-            Following the initial 6-month development phase, I ran a 6-month fixed-price support contract for the cameras including servicing and on-going development.
-                      
-
-            
-            
-            <strong>Lynker Analytics (Lead Developer, Sep 2022 - Jul 2024)</strong>
-
-            <mark>C#</mark>, <mark>PostgreSQL</mark>, <mark>PostGIS</mark>, <mark>CI/CD</mark>, <mark>AWS ECS</mark>, <mark>Docker</mark>, <mark>LeafletJS</mark>
-
-            Developed the CarbonCommit geospatial data entry system, part of the Net Carbon Zero Mapping System for Silver Fern Farms and their suppliers and farmers to verify carbon credits as part of their Net Zero Carbon programme.
-            In 2023 Silver Farm Farms & Lynker Analytics won the Datamars Livestock Technology Award at the Beef and Lamb New Zealand Awards for The Net Carbon Zero Mapping System.
             
             
             
