@@ -72,29 +72,85 @@ content:
     content:
       - layout: top-middle
         border: weak
-        title: Venari Ltd
-        link: venari.co.nz
-        sub_title: Founder, Technical Director, Software Developer
-        caption: November 2013 - Present
+        title: Lynker Analytics
+        link: lynker-analytics.com
+        sub_title: Senior Software Developer
+        caption: October 2024 - Present
         description: | # this will include new lines to allow paragraphs
 
-            <strong>Prism Earth Ltd (Lead Developer, Architect, Aug 2024 - present)</strong>
+            <strong>Net Carbon Zero (Lead Developer, Architect, Sep 2025 - present)</strong>
 
             <mark>C#</mark>, 
             <mark>ReactJS</mark>, 
             <mark>TypeScript</mark>, 
-            <mark>PostgreSQL</mark>, 
+            <mark>Shadcn/UI</mark>, 
+            <mark>PostgreSQL/PostGIS</mark>, 
+            <mark>AWS ECS</mark>,
+            <mark>CI/CD</mark>,
+            <mark>Terraform</mark>,
+            <mark>Docker</mark>
+
+            Architected and developed the Net Carbon Zero Dashboard for Prism and Silver Fern Farms.
+
+            Streamlining previous work done on the Carbon Commit project and developing a new customer Onboarding tool, and migrating parts of Carbon Commit to a new ReactJS/Typescript frontend with code-first database design.
+            
+
+
+            <strong>EUDR (Lead Developer, Oct 2024 - present)</strong>
+
+            <mark>C#</mark>, 
+            <mark>ReactJS</mark>, 
+            <mark>TypeScript</mark>, 
+            <mark>PostgreSQL/PostGIS</mark>, 
+            <mark>AWS ECS</mark>,
+            <mark>CI/CD</mark>,
+            <mark>Terraform</mark>,
+            <mark>Docker</mark>
+
+            Developed the EUDR Compliance System for Prism and the Meat Industry Association of New Zealand. 
+            
+            The system enables exporters to track land use and provide Due Diligence Statements to the European Union as part of the Regulation on Deforestation-free Products (EUDR) that comes into effect in December 2026.
+
+          
+
+            <strong>Power My Farm (Lead Developer, Architect, Apr 2025 - present)</strong>
+
+            <mark>ReactJS</mark>, 
+            <mark>TypeScript</mark>, 
+            <mark>Shadcn/UI</mark>, 
+            <mark>Geoserver</mark>, 
+            <mark>AWS ECS</mark>,
+            <mark>CI/CD</mark>,
+            <mark>Terraform</mark>
+
+            Developed Power My Farm for Prism and ASB Bank, an easy-to-use online tool that enables Kiwi farmers to plan and assess solar energy systems tailored to their property. 
+
+            Consuming basemaps and insolation data from Geoserver, this ReactJS/TypeScript application was designed to perform all energy and financial calculations on the device reducing any round-trip delays and improving user experience.
+
+
+                      
+            <strong>Carbon Commit (Lead Developer, Oct 2024 - Aug 2025)</strong>
+
+            <mark>C#</mark>, 
+            <mark>LeafletJS</mark>, 
+            <mark>PostgreSQL/PostGIS</mark>, 
             <mark>AWS ECS</mark>
             <mark>CI/CD</mark>
             <mark>Terraform</mark>
             <mark>Docker</mark>
 
-            Developing key parts of the Land Use Compliance System for the Meat Industry Association. 
+            Ongoing support and enhancements to the CarbonCommit geospatial data entry system, part of the Net Carbon Zero Mapping System for Silver Fern Farms and their suppliers and farmers to verify carbon credits as part of their Net Zero Carbon programme.
             
-            The system will enable exporters to track land use and provide Due Diligence Statements to the European Union as part of the Regulation on Deforestation-free Products (EUDR) that comes into effect in December 2024.
 
-            More details soon.
+                      
 
+      - layout: top-middle
+        border: weak
+        title: Venari Ltd
+        link: venari.co.nz
+        sub_title: Founder, Technical Director, Software Developer
+        caption: November 2013 - Present
+        description: | # this will include new lines to allow paragraphs
 
             <strong>Lynker Analytics and Zealandia Consulting (Architect and Developer, Feb 2023 - Jul 2024)</strong>
 
