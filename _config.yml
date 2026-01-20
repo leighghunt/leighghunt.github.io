@@ -59,9 +59,9 @@ about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Leigh and I'm a Software Developer.
 
-  With nearly 30 years' experience in the industry, I've been working in the New Zealand IT community for 17 years, including the last 14 as a business owner and contractor.
+  With 30 years' experience in the industry, I've been working in the New Zealand IT community for 17 years, including the last 14 as a business owner and contractor.
 
-  I mainly work in the <mark>DotNet</mark> and <mark>GIS</mark> spaces, and have strong interests in data visualisation and communication. I also design and develop software for <mark>embedded</mark> devices for data acquisition.
+  I'm a Full Stack Developer working mainly with <mark>DotNet</mark>, <mark>ReactJS</mark> and <mark>PostgreSQL/PostGIS</mark>, and have strong interests in data visualisation and communication. I also design and develop software for <mark>embedded</mark> devices for data acquisition.
 
   If you would like to read a more in-depth story about me, here's an [article](https://venari.co.nz/about/).
 
