@@ -59,7 +59,7 @@ about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Leigh and I'm a Software Developer.
 
-  With 30 years' experience in the industry, I've been working in the New Zealand IT community for 17 years, including the last 14 as a business owner and contractor.
+  With 30 years' experience in the industry, I've been working in the New Zealand IT community for 17 years, including 14 as a business owner and contractor.
 
   I'm a Full Stack Developer working mainly with <mark>DotNet</mark>, <mark>ReactJS</mark> and <mark>PostgreSQL/PostGIS</mark>, and have strong interests in data visualisation and communication. I also design and develop software for <mark>embedded</mark> devices for data acquisition.
 
@@ -92,7 +92,7 @@ content:
 
             Architected and developed the Net Carbon Zero Dashboard for Prism and Silver Fern Farms.
 
-            Streamlining previous work done on the Carbon Commit project and developing a new customer Onboarding tool and migrating parts of Carbon Commit to a new ReactJS/Typescript frontend with code-first database design.
+            Streamlining previous work done on the CarbonCommit project and developing a new customer Onboarding tool and migrating parts of CarbonCommit to a new ReactJS/Typescript frontend with code-first database design.
             
 
 
@@ -110,6 +110,8 @@ content:
             Developed the EUDR Compliance System for Prism and the Meat Industry Association of New Zealand. 
             
             The system enables exporters to track land use and provide Due Diligence Statements to the European Union as part of the Regulation on Deforestation-free Products (EUDR) that comes into effect in December 2026.
+
+            Interpreted EU Regulation & specifications, ran user and developer workshops, and incorporated user and developer feedback into ongoing system enhancements.
 
           
 
@@ -129,7 +131,7 @@ content:
 
 
                       
-            <strong>Carbon Commit (Lead Developer, Oct 2024 - Aug 2025)</strong>
+            <strong>CarbonCommit (Lead Developer, Oct 2024 - Aug 2025)</strong>
 
             <mark>C#</mark>, 
             <mark>LeafletJS</mark>, 
@@ -205,7 +207,7 @@ content:
 
             <mark>C#</mark>, <mark>SQL</mark>, <mark>ArcGIS</mark>, <mark>Azure CI/CD</mark>
 
-            Designed, Developed and managed backend API for MIMTA's new internal Latitude Forestry Management System, and deployed to US and NZ workforce.
+            Designed, developed and managed backend API for MIMTA's new internal Latitude Forestry Management System, and deployed to US and NZ workforce.
 
             
             
@@ -477,15 +479,15 @@ content:
         description: | # this will include new lines to allow paragraphs
             <mark>Litchi</mark>, <mark>Adobe After Effects</mark>, <mark>RPA Flight Management (CAA Part 101)</mark>
 
-            In addition to Drone photography and videography, I initiated and refined a drone hyperlapse creation service to help organisations communicate progress of their projects to stakeholders and the public.
+            In addition to Drone photography and videography, I initiated and refined a drone hyperlapse creation service to help organisations communicate the progress of their projects to stakeholders and the public.
             By aligning and stitching together multiple captures of a site, we create a seamless story to show the progression of projects across many months or years.
 
       - layout: top-middle
         border: weak
         title: Pro bono IT Advice and Support
-        caption: November 2016 - Present
+        caption: 2016 - 2024 
         description: | # this will include new lines to allow paragraphs
-            I give IT support and advice to a local Women's Refuge Service in Porirua. 
+            I gave IT support and advice to a local Women's Refuge Service in Porirua. 
             In addition to general IT support and procurement assistance, I migrated their office environment to Office 365 and helped migrate systems and records to the cloud.
 
       - layout: top-middle
