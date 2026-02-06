@@ -92,7 +92,7 @@ content:
 
             Architected and developed the Net Carbon Zero Dashboard for Prism and Silver Fern Farms.
 
-            Streamlining previous work done on the Carbon Commit project and developing a new customer Onboarding tool, and migrating parts of Carbon Commit to a new ReactJS/Typescript frontend with code-first database design.
+            Streamlining previous work done on the Carbon Commit project and developing a new customer Onboarding tool and migrating parts of Carbon Commit to a new ReactJS/Typescript frontend with code-first database design.
             
 
 
@@ -118,14 +118,14 @@ content:
             <mark>ReactJS</mark>, 
             <mark>TypeScript</mark>, 
             <mark>Shadcn/UI</mark>, 
-            <mark>Geoserver</mark>, 
+            <mark>GeoServer</mark>, 
             <mark>AWS ECS</mark>,
             <mark>CI/CD</mark>,
             <mark>Terraform</mark>
 
             Developed Power My Farm for Prism and ASB Bank, an easy-to-use online tool that enables Kiwi farmers to plan and assess solar energy systems tailored to their property. 
 
-            Consuming basemaps and insolation data from Geoserver, this ReactJS/TypeScript application was designed to perform all energy and financial calculations on the device reducing any round-trip delays and improving user experience.
+            Consuming basemaps and insolation data from GeoServer, this ReactJS/TypeScript application was designed to perform all energy and financial calculations on the device, reducing any round-trip delays and improving user experience.
 
 
                       
@@ -159,7 +159,7 @@ content:
             Developed and deployed several Envirocam systems to monitor several construction and industrial sites in Auckland.
             Two versions of the device were created, the first a Raspberry Pi Zero using Python, and a second Microcontroller based version using C++  with the aim of reducing power requirements and the costs of components.
 
-            Following the initial 6-month development phase, I ran a 6-month fixed-price support contract for the cameras including servicing and on-going development.
+            Following the initial 6-month development phase, I ran a 6-month fixed-price support contract for the cameras including servicing and ongoing development.
                       
 
             
